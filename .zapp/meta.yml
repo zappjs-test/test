@@ -1,0 +1,14 @@
+specs:
+  /app:
+    keys:
+      - title
+      - name
+      - version
+      - description
+  /:
+    keys:
+      - app
+  /app/name: {}
+  /app/version: {}
+  /app/description: {}
+  /app/title: {}
